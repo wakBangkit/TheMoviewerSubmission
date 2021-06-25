@@ -11,9 +11,8 @@ import com.wak.jetpack.home.SectionPagerAdapter
 import com.wak.jetpack.submission.R
 
 class MainActivity : AppCompatActivity() {
-    companion object {
-        private lateinit var mainBinding: ActivityMainBinding
-    }
+
+    private lateinit var mainBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,5 +54,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        this.mainBinding
     }
 }

@@ -7,9 +7,8 @@ import com.wak.jetpack.favorite.databinding.ActivityFavoriteBinding
 import com.wak.jetpack.submission.R
 
 class FavoriteActivity : AppCompatActivity() {
-    companion object {
-        private lateinit var favBinding: ActivityFavoriteBinding
-    }
+    private lateinit var favBinding: ActivityFavoriteBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         favBinding = ActivityFavoriteBinding.inflate(layoutInflater)
@@ -18,6 +17,7 @@ class FavoriteActivity : AppCompatActivity() {
         supportActionBar?.title = "moviewer favorite"
         setUpViewPager()
     }
+
     private fun setUpViewPager() {
         val sectionPagerAdapter =
             SectionFavoritePagerAdapter(this)
@@ -36,8 +36,14 @@ class FavoriteActivity : AppCompatActivity() {
         }.attach()
         supportActionBar?.elevation = 0f
     }
+
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
+    }
+
+    override fun onStop() {
+        super.onStop()
+        this.favBinding
     }
 }

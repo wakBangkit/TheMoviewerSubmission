@@ -8,6 +8,8 @@ import com.wak.jetpack.core.data.source.remote.RemoteDataSource
 import com.wak.jetpack.core.data.source.remote.retrofit.ApiService
 import com.wak.jetpack.core.domain.repository.IMoviewerRepository
 import com.wak.jetpack.core.utils.AppExecutors
+import net.sqlcipher.database.SQLiteDatabase.getBytes
+import net.sqlcipher.database.SupportFactory
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.android.ext.koin.androidContext
@@ -19,10 +21,14 @@ import java.util.concurrent.TimeUnit
 val databaseModule = module {
     factory { get<MoviewerDatabase>().moviewerDao() }
     single {
+        val passphrase :ByteArray = getBytes("wak".toCharArray())
+        val factory = SupportFactory(passphrase)
         Room.databaseBuilder(
             androidContext(),
             MoviewerDatabase::class.java, "moviewer.db"
-        ).fallbackToDestructiveMigration().build()
+        ).fallbackToDestructiveMigration()
+            .openHelperFactory(factory)
+            .build()
     }
 }
 
