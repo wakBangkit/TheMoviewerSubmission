@@ -41,9 +41,4 @@ class FavoriteActivity : AppCompatActivity() {
         onBackPressed()
         return true
     }
-
-    override fun onStop() {
-        super.onStop()
-        this.favBinding
-    }
 }
