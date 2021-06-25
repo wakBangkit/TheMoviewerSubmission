@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">moviewer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">moviewer</string>
+    <string name="desc_title">Supported by The Movie DB</string>
+    <string name="copyright">Copyright @2021 wak205</string>
+    <string name="img_desc">splash logo</string>
+    <string name="data_title">Title</string>
+    <string name="data_desc">this is description of the movie</string>
+    <string name="overview">Overview</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">TV Show</string>
+    <string name="example_year">(2000)</string>
+    <string name="favorite">Favorite</string>
+</resources>
