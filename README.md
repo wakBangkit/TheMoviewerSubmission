@@ -1,1 +1,1 @@
-[![wakBangkit]https://app.circleci.com/pipelines/github/wakBangkit/TheMoviewerSubmission.svg?style=svg)](https://app.circleci.com/pipelines/github/wakBangkit/TheMoviewerSubmission)
+[![<wakBangkit>](https://circleci.com/gh/wakBangkit/TheMoviewerSubmission.svg?style=svg)](https://circleci.com/gh/wakBangkit/TheMoviewerSubmission)
