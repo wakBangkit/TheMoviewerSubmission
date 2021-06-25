@@ -1,5 +1,6 @@
-package com.wak.jetpack.details
+package com.wak.jetpack.submission.details
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -51,6 +52,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
 
     }
 
+    @SuppressLint("SetTextI18n")
     private fun showTvDetail(data: TvShow?) {
         storedTv = data!!
         detailBinding.tvDataTitle.text = data.title
@@ -73,6 +75,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
         xmlPropertiesGone(state)
     }
 
+    @SuppressLint("SetTextI18n")
     private fun showMovieDetail(data: Movie?) {
         storedMovie = data!!
         detailBinding.tvDataTitle.text = data.title

@@ -1,4 +1,4 @@
-package com.wak.jetpack
+package com.wak.jetpack.submission
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,8 +7,7 @@ import android.view.Menu
 import android.view.MenuItem
 import com.google.android.material.tabs.TabLayoutMediator
 import com.wak.jetpack.submission.databinding.ActivityMainBinding
-import com.wak.jetpack.home.SectionPagerAdapter
-import com.wak.jetpack.submission.R
+import com.wak.jetpack.submission.home.SectionPagerAdapter
 
 class MainActivity : AppCompatActivity() {
 

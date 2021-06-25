@@ -1,4 +1,4 @@
-package com.wak.jetpack.home.tvshow
+package com.wak.jetpack.submission.home.tvshow
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,8 +12,8 @@ import com.wak.jetpack.core.domain.model.TvShow
 import com.wak.jetpack.core.ui.TvShowAdapter
 import com.wak.jetpack.core.data.source.Resource
 import com.wak.jetpack.submission.databinding.FragmentTvShowBinding
-import com.wak.jetpack.details.DetailActivity
-import com.wak.jetpack.home.ListDataViewModel
+import com.wak.jetpack.submission.details.DetailActivity
+import com.wak.jetpack.submission.home.ListDataViewModel
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class TvShowFragment : Fragment() {

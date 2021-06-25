@@ -1,4 +1,4 @@
-package com.wak.jetpack.details
+package com.wak.jetpack.submission.details
 
 import androidx.lifecycle.ViewModel
 import com.wak.jetpack.core.domain.model.Movie

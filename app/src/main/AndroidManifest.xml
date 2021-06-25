@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.wak.jetpack.MyApplication"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,10 +15,10 @@
         android:theme="@style/Theme.Submission">
 
         <activity
-            android:name="com.wak.jetpack.details.DetailActivity"
+            android:name=".details.DetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.wak.jetpack.splashscreen.SplashScreenActivity"
+            android:name=".splashscreen.SplashScreenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.wak.jetpack.MainActivity"
+            android:name=".MainActivity"
             android:screenOrientation="portrait" />
         <activity android:name="com.wak.jetpack.favorite.FavoriteActivity" android:screenOrientation="portrait"  />
 

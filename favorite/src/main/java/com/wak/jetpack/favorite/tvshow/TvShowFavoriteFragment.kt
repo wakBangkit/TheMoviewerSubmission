@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.wak.jetpack.core.domain.model.TvShow
 import com.wak.jetpack.core.ui.TvShowAdapter
-import com.wak.jetpack.details.DetailActivity
+import com.wak.jetpack.submission.details.DetailActivity
 import com.wak.jetpack.favorite.ListFavoriteViewModel
 import com.wak.jetpack.favorite.di.favoriteModule
 import com.wak.jetpack.submission.databinding.FragmentTvShowBinding

@@ -1,4 +1,4 @@
-package com.wak.jetpack.home
+package com.wak.jetpack.submission.home
 
 
 import androidx.lifecycle.ViewModel

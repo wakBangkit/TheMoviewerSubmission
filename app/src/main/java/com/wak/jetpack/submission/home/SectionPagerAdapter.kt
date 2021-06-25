@@ -1,10 +1,10 @@
-package com.wak.jetpack.home
+package com.wak.jetpack.submission.home
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.wak.jetpack.home.movie.MovieFragment
-import com.wak.jetpack.home.tvshow.TvShowFragment
+import com.wak.jetpack.submission.home.movie.MovieFragment
+import com.wak.jetpack.submission.home.tvshow.TvShowFragment
 
 
 class SectionPagerAdapter (activity: AppCompatActivity) : FragmentStateAdapter(activity){

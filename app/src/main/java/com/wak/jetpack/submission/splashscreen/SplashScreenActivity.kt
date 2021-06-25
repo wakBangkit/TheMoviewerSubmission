@@ -1,4 +1,4 @@
-package com.wak.jetpack.splashscreen
+package com.wak.jetpack.submission.splashscreen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.wak.jetpack.submission.R
-import com.wak.jetpack.MainActivity
+import com.wak.jetpack.submission.MainActivity
 
 class SplashScreenActivity : AppCompatActivity() {
     companion object{

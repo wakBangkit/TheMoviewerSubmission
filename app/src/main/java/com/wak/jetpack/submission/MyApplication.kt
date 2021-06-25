@@ -1,9 +1,9 @@
-package com.wak.jetpack
+package com.wak.jetpack.submission
 
 import android.app.Application
 import com.wak.jetpack.core.di.*
-import com.wak.jetpack.di.useCaseModule
-import com.wak.jetpack.di.viewModelModule
+import com.wak.jetpack.submission.di.useCaseModule
+import com.wak.jetpack.submission.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

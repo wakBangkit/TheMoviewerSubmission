@@ -1,4 +1,4 @@
-package com.wak.jetpack.home.movie
+package com.wak.jetpack.submission.home.movie
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.wak.jetpack.core.domain.model.Movie
 import com.wak.jetpack.core.ui.MovieAdapter
 import com.wak.jetpack.submission.databinding.FragmentMovieBinding
-import com.wak.jetpack.home.ListDataViewModel
+import com.wak.jetpack.submission.home.ListDataViewModel
 import com.wak.jetpack.core.data.source.Resource
-import com.wak.jetpack.details.DetailActivity
+import com.wak.jetpack.submission.details.DetailActivity
 import org.koin.android.viewmodel.ext.android.viewModel
 
 

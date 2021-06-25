@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.wak.jetpack.core.domain.model.Movie
 import com.wak.jetpack.core.ui.MovieAdapter
 import com.wak.jetpack.submission.databinding.FragmentMovieBinding
-import com.wak.jetpack.details.DetailActivity
+import com.wak.jetpack.submission.details.DetailActivity
 import com.wak.jetpack.favorite.ListFavoriteViewModel
 import com.wak.jetpack.favorite.di.favoriteModule
 import org.koin.android.viewmodel.ext.android.viewModel
